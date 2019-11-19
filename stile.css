@@ -1,0 +1,13 @@
+.navegation{
+  background-color: black ;
+}
+#header {
+  background-color: blue;
+  position: fixed;
+  padding: 20px;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+ 
