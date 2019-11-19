@@ -59,7 +59,6 @@ header {
 
 
 .elementodir{
-  /*background: yellowgreen;*/
   color: black;
   position: absolute;
   padding-right:30px;
@@ -141,15 +140,6 @@ header img{
   height: 13px;
 }
 
-/*.divinput{
-  position: absolute;
-  background: blue;
-  transform:translate(179%,+35%);
-  width: 100px;
-  right: 100;  
-  background-color: rgba(0,136,169,1);
-  border-bottom: thin solid #EEE5DE;
-}*/
 
 .divinput input{
   color: black;
@@ -196,7 +186,6 @@ div i{
 
 .slider{
   position: absolute;
-  /*border: 1px solid red;*/
   width: 100%;
   height: auto;
 }
@@ -221,7 +210,6 @@ div i{
   width: 93%;
   margin: 0px auto;
   overflow: hidden;
- /* border: 1px solid red;*/
 }
  .carrosel{
   position: relative;
@@ -248,8 +236,6 @@ div i{
   transform:translate(50%,50%);
   text-align: center;
   background: none;
-
-  /*visibility: hidden;*/
 }
 
 
@@ -353,10 +339,4 @@ div i{
   color: #273578;
   font-size: 18px;
   bottom:10px; 
-}
-
-.rodape{
-  position: absolute;
-  background: saddlebrown;
-  height: 200px;
 }

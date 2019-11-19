@@ -25,8 +25,6 @@ $(document).ready(function(){
 
 function desfoque(id, tipo, mensagem){
     if(tipo == "ent"){
-      console.log(id);
-       //  : 400;
            $("."+mensagem).css({visibility:"visible"});
            $("."+mensagem).css("font-weight"," 500 ");
            $("#"+id).css({filter:"blur(2px)"}); 
@@ -34,6 +32,5 @@ function desfoque(id, tipo, mensagem){
     }else{
         $("#"+id).css({filter:""});
         $("."+mensagem).css({visibility:"hidden"});
-        console.log(mensagem)
     }
 }
